@@ -1,3 +1,5 @@
+
+```
 [alias]
 	cc = "!f() { \
 		read -p \"Type (feat/fix/docs/style/refactor/test/chore): \" type; \
@@ -17,3 +19,4 @@
 			git commit -m \"$type($scope)$breaking_mark: $desc\"; \
 		fi; \
 	}; f"
+```
