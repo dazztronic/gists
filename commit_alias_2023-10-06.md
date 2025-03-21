@@ -1,3 +1,4 @@
+Alias for .gitconfig to commit with convetional commits
 
 ```
 [alias]
