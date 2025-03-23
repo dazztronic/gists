@@ -3,7 +3,7 @@ Alias for .gitconfig to commit with convetional commits
 ```
 [alias]
 	cc = "!f() { \
-		read -p \"Type (feat/fix/docs/style/refactor/test/chore): \" type; \
+		read -p \"Type (feat/fix/docs/ci/style/refactor/test/chore): \" type; \
 		read -p \"Scope (optional): \" scope; \
 		read -p \"Short description: \" desc; \
 		read -p \"Breaking change? (y/N): \" breaking; \
